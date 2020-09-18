@@ -22,11 +22,12 @@ use App\Http\Controllers\API\TransactionController;
 Route::middleware(['auth:sanctum'])->group(function () {
     Route::get('user', [UserController::class, 'fetch']);
     Route::get('transaction', [TransactionController::class, 'all']);
-
     Route::post('checkout', [TransactionController::class, 'checkout']);
+    Route::post('logout', [UserController::class, 'logout']);
 });
 
 Route::post('login', [UserController::class, 'login']);
+Route::post('register', [UserController::class, 'register']);
 
 Route::get('food', [FoodController::class, 'all']);
 Route::post('midtrans/callback', [MidtransController::class, 'callback']);
