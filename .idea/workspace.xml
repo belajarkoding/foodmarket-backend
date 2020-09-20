@@ -23,21 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42adbedb-6e77-4815-9589-ebbcda28a3f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/midtrans/error.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/midtrans/success.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/midtrans/unfinish.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/foodmarket-backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/foodmarket-backend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/MidtransController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/MidtransController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/TransactionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/TransactionController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Transaction.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Transaction.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/navigation-dropdown.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/navigation-dropdown.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +208,7 @@
       <updated>1600318708445</updated>
       <workItem from="1600318709958" duration="15162000" />
       <workItem from="1600597741071" duration="227000" />
-      <workItem from="1600597975615" duration="1318000" />
+      <workItem from="1600597975615" duration="2277000" />
     </task>
     <task id="LOCAL-00001" summary="Update kerjaan yang belum di push">
       <created>1600399429524</created>
@@ -244,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600428812693</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="API Foodmarket">
+      <created>1600599387427</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600599387427</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +259,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update kerjaan yang belum di push" />
     <MESSAGE value="Login logout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login logout" />
+    <MESSAGE value="API Foodmarket" />
+    <option name="LAST_COMMIT_MESSAGE" value="API Foodmarket" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600399783417">
@@ -284,17 +279,17 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1600598888638" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1600428815918">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1600599388730">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600428815918" />
-    <state x="667" y="258" width="585" height="592" key="find.popup" timestamp="1600321953644">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600599388730" />
+    <state x="667" y="258" width="585" height="592" key="find.popup" timestamp="1600599742403">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="667" y="258" width="585" height="592" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1600321953644" />
-    <state x="143" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1600599163127">
+    <state x="667" y="258" width="585" height="592" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1600599742403" />
+    <state x="143" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1600599834066">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="143" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1600599163127" />
+    <state x="143" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1600599834066" />
   </component>
 </project>
