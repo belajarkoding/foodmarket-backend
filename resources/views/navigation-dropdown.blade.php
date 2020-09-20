@@ -17,12 +17,17 @@
                     </x-jet-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-jet-nav-link href="/food" :active="request()->routeIs('food')">
+                    <x-jet-nav-link href="/dashboard/food" :active="request()->routeIs('dashboard/food')">
                         {{ __('Food') }}
                     </x-jet-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-jet-nav-link href="/users" :active="request()->routeIs('users')">
+                    <x-jet-nav-link href="/dashboard/transactions" :active="request()->routeIs('dashboard/transactions')">
+                        {{ __('Transactions') }}
+                    </x-jet-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-jet-nav-link href="/dashboard/users" :active="request()->routeIs('dashboard/users')">
                         {{ __('Users') }}
                     </x-jet-nav-link>
                 </div>
@@ -117,6 +122,15 @@
         <div class="pt-2 pb-3 space-y-1">
             <x-jet-responsive-nav-link href="/dashboard" :active="request()->routeIs('dashboard')">
                 {{ __('Dashboard') }}
+            </x-jet-responsive-nav-link>
+            <x-jet-responsive-nav-link href="/dashboard/food" :active="request()->routeIs('dashboard/food')">
+                {{ __('Food') }}
+            </x-jet-responsive-nav-link>
+            <x-jet-responsive-nav-link href="/dashboard/transactions" :active="request()->routeIs('dashboard/transactions')">
+                {{ __('Transactions') }}
+            </x-jet-responsive-nav-link>
+            <x-jet-responsive-nav-link href="/dashboard/users" :active="request()->routeIs('dashboard/users')">
+                {{ __('Users') }}
             </x-jet-responsive-nav-link>
         </div>
 

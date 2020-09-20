@@ -23,8 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42adbedb-6e77-4815-9589-ebbcda28a3f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/food/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FoodController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FoodController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Food.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Food.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/navigation-dropdown.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/navigation-dropdown.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +214,8 @@
       <updated>1600318708445</updated>
       <workItem from="1600318709958" duration="15162000" />
       <workItem from="1600597741071" duration="227000" />
-      <workItem from="1600597975615" duration="2277000" />
+      <workItem from="1600597975615" duration="4643000" />
+      <workItem from="1600624172788" duration="4892000" />
     </task>
     <task id="LOCAL-00001" summary="Update kerjaan yang belum di push">
       <created>1600399429524</created>
@@ -238,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600599387427</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="CMS Layout Foodmarket">
+      <created>1600600299116</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600600299116</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,36 +274,45 @@
     <MESSAGE value="Update kerjaan yang belum di push" />
     <MESSAGE value="Login logout" />
     <MESSAGE value="API Foodmarket" />
-    <option name="LAST_COMMIT_MESSAGE" value="API Foodmarket" />
+    <MESSAGE value="CMS Layout Foodmarket" />
+    <option name="LAST_COMMIT_MESSAGE" value="CMS Layout Foodmarket" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600399783417">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600399783417" />
-    <state x="210" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600597894877">
+    <state x="707" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600627764559">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="210" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600597894877" />
+    <state x="707" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1600627764559" />
+    <state x="210" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600627710445">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="210" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600627710445" />
     <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1600427972440">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1600427972440" />
+    <state x="767" y="227" key="RollbackChangesDialog" timestamp="1600626170141">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="767" y="227" key="RollbackChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600626170141" />
     <state x="461" y="170" key="SettingsEditor" timestamp="1600598888638">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1600598888638" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1600599388730">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1600600300845">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600599388730" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600600300845" />
     <state x="667" y="258" width="585" height="592" key="find.popup" timestamp="1600599742403">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="667" y="258" width="585" height="592" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1600599742403" />
-    <state x="143" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1600599834066">
+    <state x="143" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1600627779317">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="143" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1600599834066" />
+    <state x="143" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1600627779317" />
   </component>
 </project>
