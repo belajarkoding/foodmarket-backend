@@ -23,20 +23,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42adbedb-6e77-4815-9589-ebbcda28a3f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/midtrans/error.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/midtrans/success.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/midtrans/unfinish.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/foodmarket-backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/foodmarket-backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/MidtransController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/MidtransController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/TransactionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/TransactionController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Food.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Food.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Transaction.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Transaction.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -173,6 +181,7 @@
       <path value="$PROJECT_DIR$/vendor/mobiledetect/mobiledetectlib" />
       <path value="$PROJECT_DIR$/vendor/laravel/sanctum" />
       <path value="$PROJECT_DIR$/vendor/livewire/livewire" />
+      <path value="$PROJECT_DIR$/vendor/midtrans/midtrans-php" />
     </include_path>
   </component>
   <component name="ProjectId" id="1hcmMVPnieEcCqO3nFtcUfyKHal" />
@@ -186,11 +195,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Helpers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/midtrans" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\foodmarket-backend\resources\views\midtrans" />
       <recent name="C:\laragon\www\foodmarket-backend\app\Helpers" />
     </key>
   </component>
@@ -208,7 +219,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600318708445</updated>
-      <workItem from="1600318709958" duration="12685000" />
+      <workItem from="1600318709958" duration="15162000" />
+      <workItem from="1600597741071" duration="227000" />
+      <workItem from="1600597975615" duration="1318000" />
     </task>
     <task id="LOCAL-00001" summary="Update kerjaan yang belum di push">
       <created>1600399429524</created>
@@ -224,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600399507408</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Login logout">
+      <created>1600428812693</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600428812693</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,35 +260,41 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update kerjaan yang belum di push" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update kerjaan yang belum di push" />
+    <MESSAGE value="Login logout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login logout" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600399783417">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600399783417" />
-    <state x="210" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600427663644">
+    <state x="210" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600597894877">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="210" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600427663644" />
+    <state x="210" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600597894877" />
     <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1600427972440">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1600427972440" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1600399511867">
+    <state x="461" y="170" key="SettingsEditor" timestamp="1600598888638">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600399511867" />
+    <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1600598888638" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1600428815918">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600428815918" />
     <state x="667" y="258" width="585" height="592" key="find.popup" timestamp="1600321953644">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="667" y="258" width="585" height="592" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1600321953644" />
-    <state x="143" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1600428692160">
+    <state x="143" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1600599163127">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="143" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1600428692160" />
+    <state x="143" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1600599163127" />
   </component>
 </project>
