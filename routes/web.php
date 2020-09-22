@@ -18,11 +18,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Homepage
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('admin-dashboard');
 });
 
-
+// Dashboard
 Route::prefix('dashboard')
     ->middleware(['auth:sanctum','admin'])
     ->group(function() {
@@ -32,7 +33,7 @@ Route::prefix('dashboard')
         Route::resource('transactions', TransactionController::class);
     });
 
-
+// Midtrans Related
 Route::get('midtrans/success', [MidtransController::class, 'success']);
 Route::get('midtrans/unfinish', [MidtransController::class, 'unfinish']);
 Route::get('midtrans/error', [MidtransController::class, 'error']);
