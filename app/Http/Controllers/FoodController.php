@@ -70,7 +70,7 @@ class FoodController extends Controller
     public function edit(Food $food)
     {
         return view('food.edit',[
-            'food' => $food
+            'item' => $food
         ]);
     }
 
@@ -84,6 +84,11 @@ class FoodController extends Controller
     public function update(Request $request, Food $food)
     {
         $data = $request->all();
+
+        if($request->file('picturePath'))
+        {
+            $data['picturePath'] = $request->file('picturePath')->store('assets/food', 'public');
+        }
 
         $food->update($data);
 

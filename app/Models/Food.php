@@ -6,6 +6,7 @@ use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Support\Facades\Storage;
 
 class Food extends Model
 {
@@ -15,14 +16,25 @@ class Food extends Model
         'picturePath', 'name', 'description', 'ingredients', 'price', 'rate', 'types'
     ];
 
-    public function getCreatedAtAttribute()
+    public function toArray()
     {
-        return Carbon::parse($this->attributes['created_at'])
+        $toArray = parent::toArray();
+        $toArray['picturePath'] = $this->picturePath;
+        return $toArray;
+    }
+
+    public function getCreatedAtAttribute($created_at)
+    {
+        return Carbon::parse($created_at)
             ->timestamp;
     }
-    public function getUpdatedAtAttribute()
+    public function getUpdatedAtAttribute($updated_at)
     {
-        return Carbon::parse($this->attributes['updated_at'])
+        return Carbon::parse($updated_at)
             ->timestamp;
+    }
+    public function getPicturePathAttribute()
+    {
+        return url('') . Storage::url($this->attributes['picturePath']);
     }
 }
