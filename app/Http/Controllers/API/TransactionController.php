@@ -108,4 +108,18 @@ class TransactionController extends Controller
             return ResponseFormatter::error($e->getMessage(),'Transaksi Gagal');
         }
     }
+
+    /**
+     * @param Request $request
+     * @param $id
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function update(Request $request, $id)
+    {
+        $transaction = Transaction::findOrFail($id);
+
+        $transaction->update($request->all());
+
+        return ResponseFormatter::success($transaction,'Transaksi berhasil diperbarui');
+    }
 }
