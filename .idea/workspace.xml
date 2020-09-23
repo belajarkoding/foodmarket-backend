@@ -24,6 +24,9 @@
   <component name="ChangeListManager">
     <list default="true" id="42adbedb-6e77-4815-9589-ebbcda28a3f5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/food/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/food/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/food/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/food/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/edit.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +215,7 @@
       <workItem from="1600597975615" duration="4643000" />
       <workItem from="1600624172788" duration="6782000" />
       <workItem from="1600767960569" duration="7454000" />
-      <workItem from="1600837175600" duration="4654000" />
+      <workItem from="1600837175600" duration="5384000" />
     </task>
     <task id="LOCAL-00001" summary="Update kerjaan yang belum di push">
       <created>1600399429524</created>
@@ -291,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600841576311</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fix midtrans callback">
+      <created>1600842137652</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1600842137652</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +329,8 @@
     <MESSAGE value="Update accessor" />
     <MESSAGE value="User crud" />
     <MESSAGE value="Transactions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Transactions" />
+    <MESSAGE value="Fix midtrans callback" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix midtrans callback" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600399783417">
@@ -346,17 +357,17 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1600839098991" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1600841577658">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1600842175101">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600841577658" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600842175101" />
     <state x="667" y="258" width="585" height="592" key="find.popup" timestamp="1600841247319">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="667" y="258" width="585" height="592" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1600841247319" />
-    <state x="143" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1600841839634">
+    <state x="143" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1600842374064">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="143" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1600841839634" />
+    <state x="143" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1600842374064" />
   </component>
 </project>
