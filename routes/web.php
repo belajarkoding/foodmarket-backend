@@ -30,6 +30,8 @@ Route::prefix('dashboard')
         Route::get('/', [DashboardController::class, 'index'])->name('admin-dashboard');
         Route::resource('food', FoodController::class);
         Route::resource('users', UserController::class);
+
+        Route::get('transactions/{id}/status/{status}', [TransactionController::class, 'changeStatus'])->name('transactions.changeStatus');
         Route::resource('transactions', TransactionController::class);
     });
 

@@ -10,11 +10,15 @@ class TransactionController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Http\Response|\Illuminate\View\View
      */
     public function index()
     {
-        //
+        $transaction = Transaction::with(['food','user'])->paginate(10);
+
+        return view('transactions.index', [
+            'transaction' => $transaction
+        ]);
     }
 
     /**
@@ -42,11 +46,13 @@ class TransactionController extends Controller
      * Display the specified resource.
      *
      * @param  \App\Models\Transaction  $transaction
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Http\Response|\Illuminate\View\View
      */
     public function show(Transaction $transaction)
     {
-        //
+        return view('transactions.detail',[
+            'item' => $transaction
+        ]);
     }
 
     /**
@@ -76,10 +82,28 @@ class TransactionController extends Controller
      * Remove the specified resource from storage.
      *
      * @param  \App\Models\Transaction  $transaction
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Http\RedirectResponse
      */
     public function destroy(Transaction $transaction)
     {
-        //
+        $transaction->delete();
+
+        return redirect()->route('transactions.index');
+    }
+
+    /**
+     * @param Request $request
+     * @param $id
+     * @param $status
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function changeStatus(Request $request, $id, $status)
+    {
+        $transaction = Transaction::findOrFail($id);
+
+        $transaction->status = $status;
+        $transaction->save();
+
+        return redirect()->route('transactions.show', $id);
     }
 }
