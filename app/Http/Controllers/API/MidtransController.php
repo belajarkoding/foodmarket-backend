@@ -39,7 +39,7 @@ class MidtransController extends Controller
         if ($status == 'capture') {
             if ($type == 'credit_card'){
                 if($fraud == 'challenge'){
-                    $transaction->status = 'CHALLENGE';
+                    $transaction->status = 'PENDING';
                 }
                 else {
                     $transaction->status = 'SUCCESS';
@@ -53,13 +53,13 @@ class MidtransController extends Controller
             $transaction->status = 'PENDING';
         }
         else if ($status == 'deny') {
-            $transaction->status = 'FAILED';
+            $transaction->status = 'CANCELLED';
         }
         else if ($status == 'expire') {
-            $transaction->status = 'EXPIRED';
+            $transaction->status = 'CANCELLED';
         }
         else if ($status == 'cancel') {
-            $transaction->status = 'FAILED';
+            $transaction->status = 'CANCELLED';
         }
 
         // Simpan transaksi
