@@ -26,12 +26,12 @@ class Food extends Model
     public function getCreatedAtAttribute($created_at)
     {
         return Carbon::parse($created_at)
-            ->timestamp;
+            ->getPreciseTimestamp(3);
     }
     public function getUpdatedAtAttribute($updated_at)
     {
         return Carbon::parse($updated_at)
-            ->timestamp;
+            ->getPreciseTimestamp(3);
     }
     public function getPicturePathAttribute()
     {

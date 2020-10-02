@@ -61,3 +61,14 @@ W
 'app/Http/Controllers/FoodController.php,f\c\fce134949d5b1008dd9f1b897f6b69a73719c6c0
 W
 'app/Http/Controllers/UserController.php,7\d\7de9f5d267d12a172eff77837bcb8fb2e88564c2
+S
+#resources/views/dashboard.blade.php,c\b\cb9b83605560606e98f1366cfe970597db7f6f83
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+X
+(resources/views/midtrans/error.blade.php,8\e\8e6f93637c9863e5b0fa246144b8af9ce0a0e945
+Z
+*resources/views/midtrans/success.blade.php,d\1\d1faf734fcce2afa5cee50c085f4d1612f85f3b7
+[
++resources/views/midtrans/unfinish.blade.php,8\8\886fde5af9c2846d4876694cf960f0638198b38e

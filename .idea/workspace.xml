@@ -23,12 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42adbedb-6e77-4815-9589-ebbcda28a3f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/55744e70dd371f29fe5957f1d8fc8c5b46e0eda4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/55744e70dd371f29fe5957f1d8fc8c5b46e0eda4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/midtrans/error.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/midtrans/error.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/midtrans/success.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/midtrans/success.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/midtrans/unfinish.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/midtrans/unfinish.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Food.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Food.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Transaction.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Transaction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +221,10 @@
       <workItem from="1600879537683" duration="611000" />
       <workItem from="1600919873045" duration="4000" />
       <workItem from="1600919888233" duration="10000" />
-      <workItem from="1601203782646" duration="337000" />
+      <workItem from="1601203782646" duration="431000" />
+      <workItem from="1601204230312" duration="611000" />
+      <workItem from="1601349727496" duration="32000" />
+      <workItem from="1601610582820" duration="100000" />
     </task>
     <task id="LOCAL-00001" summary="Update kerjaan yang belum di push">
       <created>1600399429524</created>
@@ -315,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600863796489</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Update lg">
+      <created>1601204152781</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1601204152781</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,7 +354,8 @@
     <MESSAGE value="Transactions" />
     <MESSAGE value="Fix midtrans callback" />
     <MESSAGE value="Add update transaction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add update transaction" />
+    <MESSAGE value="Update lg" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update lg" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600399783417">
@@ -372,17 +382,17 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1600839098991" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1600863797733">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1601204154259">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600863797733" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601204154259" />
     <state x="667" y="258" width="585" height="592" key="find.popup" timestamp="1600841247319">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="667" y="258" width="585" height="592" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1600841247319" />
-    <state x="143" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1601203877056">
+    <state x="143" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1601610649156">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="143" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1601203877056" />
+    <state x="143" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1601610649156" />
   </component>
 </project>
