@@ -23,7 +23,7 @@
 <body class="antialiased">
 <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0 text-gray-600 dark:text-gray-400 text-center">
     <p class="text-lg">
-        Transaksi Berhasil. <br><small> Silahkan Tutup Halaman Ini</small>
+        Lakukan pembayaran sesuai dengan metode pembayaran yang dipilih <br><small> Silahkan Tutup Halaman Ini</small>
     </p>
 </div>
 </body>
